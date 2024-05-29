@@ -6,5 +6,5 @@ commit_message: "chore: New translations %original_file_name% from Crowdin"
 append_commit_message: false
 preserve_hierarchy: true
 files:
-  - source: ./en-US/*.json
-    translation: ./%locale%/%original_file_name%
+  - source: en-US/*.json
+    translation: /%locale%/%original_file_name%
