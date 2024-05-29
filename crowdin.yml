@@ -7,5 +7,5 @@ append_commit_message:
 preserve_hierarchy: 1
 files:
   - source: /en-US/**/*.json
-    translation: /%locale%/%original_file_name%
+    translation: /%locale%/**/%original_file_name%
     update_option: update_as_unapproved
