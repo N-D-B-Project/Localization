@@ -3,7 +3,7 @@ name: Crowdin Action
 on:
   push:
     paths: ["**"]
-    branches: [master]
+    branches: [N-D-B]
 
 jobs:
   crowdin-upload:
