@@ -29,7 +29,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
 
-      - name: crowdin action
+      - name: Crowdin Sync
         uses: crowdin/github-action@v1
         with:
           upload_sources: true
