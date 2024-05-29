@@ -1,5 +1,5 @@
-project_id_env: N-D-B_CROWDIN_PROJECT_ID
-api_token_env: N-D-B_CROWDIN_PERSONAL_TOKEN
+project_id_env: CROWDIN_PROJECT_ID
+api_token_env: CROWDIN_PERSONAL_TOKEN
 base_path: .
 base_url: "https://api.crowdin.com/"
 commit_message: "chore: New translations %original_file_name% from Crowdin"
