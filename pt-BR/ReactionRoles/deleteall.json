@@ -1,7 +1,6 @@
 {
 	"name": "deletar_tudo",
 	"description": "Deleta todas as ReactionRoles do Servidor",
-
 	"Embed": {
 		"Title": "Remover ReactionRoles",
 		"Description": {
