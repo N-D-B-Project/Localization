@@ -8,8 +8,8 @@
 		"Disable": "This command is disabled",
 		"NDCash": "You do not have enough NDCash to run this command.",
 		"Permissions": {
-			"Bot": "I don't have the following permissions: {{PERMS}} to execute this command.",
-			"User": "You don't have the following permissions: {{PERMS}} to execute this command."
+			"Bot": "I don't have the following permissions to execute this command: {{PERMS}}",
+			"User": "You don't have the following permissions: {{PERMS}} to execute this command"
 		}
 	}
 }
