@@ -1,4 +1,10 @@
 {
 	"name": "entrar",
-	"description": "Faz o bot entrar no seu canal de voz e cria um player"
+	"description": "Faz o bot entrar no seu canal de voz e cria um player",
+	"options": {
+		"channel": {
+			"name": "channel",
+			"description": "Voice Channel to Join"
+		}
+	}
 }
