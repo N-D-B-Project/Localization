@@ -1,4 +1,10 @@
 {
 	"name": "join",
-	"description": "Makes the bot join your voice channel and creates a player"
+	"description": "Makes the bot join your voice channel and creates a player",
+	"options": {
+		"channel": {
+			"name": "channel",
+			"description": "Voice Channel to Join"
+		}
+	}
 }
