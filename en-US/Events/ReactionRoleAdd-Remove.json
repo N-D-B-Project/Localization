@@ -1,0 +1,38 @@
+{
+	"GlobalFooter": "N-D-B | Reaction Role",
+	"GlobalField": {
+		"1": "Message",
+		"Content": "[Click Here]({{URL}})"
+	},
+	"Cooldown": {
+		"Title": "You are on Cooldown",
+		"Description": "You have been placed on Cooldown in **{{GUILD}}** to not overload the system and cause a RateLimit. Please wait {{TIMER}} seconds and try again!"
+	},
+	"Add": {
+		"Title": "Role Added",
+		"Description": "You received the role: **{{ROLE}}** in the guild: **{{GUILD}}"
+	},
+	"Remove": {
+		"Title": "Role Removed",
+		"Description": "You lost the role: **{{ROLE}}** in the guild: **{{GUILD}}**!"
+	},
+	"Error": {
+		"Title": "An Error Occurred",
+		"Description": "An error occurred while adding/removing the role: **{{ROLE}}** in the guild: **{{GUILD}}**\n A report has already been sent to the developer!\nPossible cause of the error: RateLimit try again later!"
+	},
+	"Options": {
+		"ADD": {
+			"1": "✅ Added by 🎩 ReactionRole Option[1]: Reacting adds the Role, removing the reaction removes the Role",
+			"2": "✅ Added by 🎩 ReactionRole Option[2]: Reacting adds the Role, removing the reaction does not remove the Role",
+			"4": "✅ Added by 🎩 ReactionRole Option[4]: Reacting removes the Role, removing the reaction adds the Role",
+			"6": "✅ Added by 🎩 ReactionRole Option[6]: Reacting adds the Role, reacting again removes the Role"
+		},
+		"REMOVE": {
+			"1": "❌ Removed by 🎩 ReactionRole Option[1]: Reacting adds the Role, removing the reaction removes the Role",
+			"3": "❌ Removed by 🎩 ReactionRole Option[3]: Reacting removes the Role, removing the reaction does not return the Role",
+			"4": "❌ Removed by 🎩 ReactionRole Option[4]: Reacting removes the Role, removing the reaction adds the Role",
+			"5": "❌ Removed by 🎩 ReactionRole Option[5]: Same concept as number 3 but removes the reaction\n🎩 ReactionRole Option[3]: Reacting removes the Role, removing the reaction does not return the Role",
+			"6": "❌ Removed by 🎩 ReactionRole Option[6]: Reacting adds the Role and reacting again removes the Role"
+		}
+	}
+}

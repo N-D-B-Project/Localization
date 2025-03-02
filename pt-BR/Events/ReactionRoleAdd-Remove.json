@@ -1,0 +1,38 @@
+{
+	"GlobalFooter": "N-D-B | Reaction Role",
+	"GlobalField": {
+		"1": "Mensagem",
+		"Content": "[Clique Aqui]({{URL}})"
+	},
+	"Cooldown": {
+		"Title": "Você está no Cooldown",
+		"Description": "Você foi colocado no Cooldown em **{{GUILD}}** para não sobrecarregar o sistema e causar um RateLimit. Por favor, aguarde {{TIMER}} segundos e tente novamente!"
+	},
+	"Add": {
+		"Title": "Cargo Adicionado",
+		"Description": "Você recebeu o cargo: **{{ROLE}}** no servidor: **{{GUILD}}**!"
+	},
+	"Remove": {
+		"Title": "Cargo Removido",
+		"Description": "Você perdeu o cargo: **{{ROLE}}** no servidor: **{{GUILD}}**!"
+	},
+	"Error": {
+		"Title": "Um Erro Ocorreu",
+		"Description": "Ocorreu um erro ao adicionar/remover o cargo: **{{ROLE}}** no servidor: **{{GUILD}}**\n Um relatório já foi enviado ao desenvolvedor!\nPossível causa do erro: RateLimit tente novamente mais tarde!"
+	},
+	"Options": {
+		"ADD": {
+			"1": "✅ Acionado pelo 🎩 ReactionRole Opção[1]: Reagir adiciona o Cargo, tirar a reação remove o Cargo",
+			"2": "✅ Acionado pelo 🎩 ReactionRole Opção[2]: Reagir adiciona o Cargo, tirar a reação não remove o Cargo",
+			"4": "✅ Acionado pelo 🎩 ReactionRole Opção[4]: Reagir removerá o Cargo, tirar a reação adiciona o Cargo",
+			"6": "✅ Acionado pelo 🎩 ReactionRole Opção[6]: Reagir adiciona o Cargo e reagir novamente remove o Cargo"
+		},
+		"REMOVE": {
+			"1": "❌ Removido pelo 🎩 ReactionRole Opção[1]: Reagir adiciona o Cargo, tirar a reação remove o Cargo",
+			"3": "❌ Removido pelo 🎩 ReactionRole Opção[3]: Reagir removerá o Cargo, tirar a reação não a devolverá o Cargo",
+			"4": "❌ Removido pelo 🎩 ReactionRole Opção[4]: Reagir removerá o Cargo, tirar a reação adiciona o Cargo",
+			"5": "❌ Removido pelo 🎩 ReactionRole Opção[5]: Mesmo conceito do número 3 porém remove a reação\n🎩 ReactionRole Opção[3]: Reagir removerá o Cargo, tirar a reação não a devolverá o Cargo",
+			"6": "❌ Removido pelo 🎩 ReactionRole Opção[6]: Reagir adiciona o Cargo e reagir novamente remove o Cargo"
+		}
+	}
+}
