@@ -1,0 +1,22 @@
+{
+	"name": "create_type",
+	"description": "Creates a ticket type",
+	"options": {
+		"name": {
+			"name": "name",
+			"description": "Name of the ticket type"
+		},
+		"description": {
+			"name": "description",
+			"description": "Description of the ticket type"
+		},
+		"message": {
+			"name": "message",
+			"description": "Message that will be sent when the ticket is opened"
+		},
+		"emoji": {
+			"name": "emoji",
+			"description": "Emoji for the ticket type"
+		}
+	}
+}
