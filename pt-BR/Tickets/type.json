@@ -7,7 +7,7 @@
 			"description": "Nome do tipo de ticket"
 		},
 		"description": {
-			"name": "descrição",
+			"name": "descricao",
 			"description": "Descrição do tipo de ticket"
 		},
 		"message": {
