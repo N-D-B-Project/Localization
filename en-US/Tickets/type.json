@@ -18,5 +18,16 @@
 			"name": "emoji",
 			"description": "Emoji for the ticket type"
 		}
+	},
+	"max_types": "You have reached the maximum number of ticket types",
+	"exists": "A ticket type with that name already exists",
+	"embed": {
+		"title": "Ticket Type Created",
+		"fields": {
+			"name": "Name",
+			"description": "Description",
+			"message": "Message",
+			"emoji": "Emoji"
+		}
 	}
 }
