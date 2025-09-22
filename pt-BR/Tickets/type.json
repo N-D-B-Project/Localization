@@ -23,11 +23,15 @@
 	"exists": "Já existe um tipo de ticket com esse nome",
 	"embed": {
 		"title": "Tipo de Ticket Criado",
+		"details": "Detalhes do tipo de ticket criado:",
 		"fields": {
 			"name": "Nome",
 			"description": "Descrição",
 			"message": "Mensagem",
 			"emoji": "Emoji"
-		}
+		},
+		"next_steps": "Você pode adicionar configurações adicionais ao tipo de ticket usando o comando {{COMMAND_MENTION}}, como definir permissões, editar o tipo, etc...",
+		"configure": "Ou você pode configurar clicando no botão.",
+		"start_configure": "Começar a configurar"
 	}
 }
