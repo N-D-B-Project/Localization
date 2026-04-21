@@ -23,18 +23,8 @@
 			"description": "Tipo de ReactionRole (1-6) (/cargos_por_reacao tipos)"
 		}
 	},
-	"Channel": {
-		"Invalid": "{{fail}} Canal invalido"
-	},
 	"ID": {
-		"Invalid": "{{fail}} Insira um ID de Mensagem",
 		"NotFound": "{{fail}} Mensagem não encontrada verifique se o ID é valido"
-	},
-	"Role": {
-		"Invalid": "{{fail}} Cargo Invalido ou é um cargo de integração"
-	},
-	"Emoji": {
-		"Invalid": "{{fail}} Emoji invalido"
 	},
 	"UnableToCreate": "{{fail}} Não foi possível criar essa ReactionRole pois ela já existe ou ocorreu um erro interno",
 	"Embed": {

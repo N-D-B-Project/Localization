@@ -1,0 +1,20 @@
+{
+	"name": "list",
+	"description": "List all ReactionRoles in the server",
+	"options": {
+		"channel": {
+			"name": "channel",
+			"description": "Filter by a specific channel (optional)"
+		}
+	},
+	"empty": "No ReactionRoles were found in this server.",
+	"embed": {
+		"title": "ReactionRoles",
+		"footer": "Page {{PAGE}}/{{TOTAL_PAGES}} • {{TOTAL}} ReactionRole(s)",
+		"type_label": "Type",
+		"channel": "Channel",
+		"role": "Role",
+		"message": "Message",
+		"jump": "Click Here"
+	}
+}

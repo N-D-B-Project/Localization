@@ -10,7 +10,7 @@
 	},
 	"Add": {
 		"Title": "Role Added",
-		"Description": "You received the role: **{{ROLE}}** in the guild: **{{GUILD}}"
+		"Description": "You received the role: **{{ROLE}}** in the guild: **{{GUILD}}**"
 	},
 	"Remove": {
 		"Title": "Role Removed",
