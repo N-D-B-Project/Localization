@@ -1,13 +1,13 @@
 {
-	"type_not_found": "Este tipo de ticket não existe mais.",
-	"already_open": "Você já tem um ticket aberto deste tipo.",
-	"creating": "Criando seu ticket...",
-	"button": "Abrir Ticket",
-	"success": "Seu ticket foi criado! Vá para {{CHANNEL}}",
+	"type_not_found": "This ticket type no longer exists.",
+	"already_open": "You already have an open ticket of this type.",
+	"creating": "Creating your ticket...",
+	"button": "Open Ticket",
+	"success": "Your ticket has been created! Go to {{CHANNEL}}",
 	"embed": {
-		"select_title": "🎫 Abrir um Ticket",
-		"select_description": "Selecione um tipo de ticket abaixo para ver seus detalhes.",
-		"confirm_footer": "Clique no botão abaixo para confirmar e abrir este ticket.",
-		"footer": "Use os botões abaixo para fechar ou transcrever este ticket."
+		"select_title": "🎫 Open a Ticket",
+		"select_description": "Select a ticket type below to see its details.",
+		"confirm_footer": "Click the button below to confirm and open this ticket.",
+		"footer": "Use the buttons below to close or transcribe this ticket."
 	}
 }

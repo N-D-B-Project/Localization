@@ -1,18 +1,18 @@
 {
-	"name": "configurar",
-	"description": "Enviar o painel de tickets para um canal",
+	"name": "setup",
+	"description": "Send the ticket panel to a channel",
 	"options": {
 		"channel": {
-			"name": "canal",
-			"description": "O canal para enviar o painel de tickets"
+			"name": "channel",
+			"description": "The channel to send the ticket panel to"
 		}
 	},
-	"no_types": "Não há tipos de ticket configurados. Crie um primeiro com `/tickets criar_tipo`",
-	"success": "Painel de tickets enviado para {{CHANNEL}}!",
+	"no_types": "There are no ticket types configured. Create one first with `/tickets create_type`",
+	"success": "Ticket panel sent to {{CHANNEL}}!",
 	"embed": {
-		"title": "🎫 Tickets de Suporte",
-		"description": "Clique no botão abaixo para abrir um ticket. Nossa equipe irá ajudá-lo o mais rápido possível.",
-		"select_placeholder": "Selecione um tipo de ticket...",
-		"open_button": "Abrir Ticket"
+		"title": "🎫 Support Tickets",
+		"description": "Click the button below to open a ticket. Our team will assist you as soon as possible.",
+		"select_placeholder": "Select a ticket type...",
+		"open_button": "Open Ticket"
 	}
 }

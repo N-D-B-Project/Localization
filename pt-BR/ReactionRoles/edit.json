@@ -1,6 +1,6 @@
 {
 	"name": "editar",
-	"description": "Edita uma ReactionRole existente",
+	"description": "Edita uma ReactionRole",
 	"options": {
 		"channel": {
 			"name": "canal",
@@ -16,25 +16,25 @@
 		},
 		"emoji": {
 			"name": "emoji",
-			"description": "Emoji utilizado na ReactionRole"
+			"description": "Emoji used in ReactionRole"
 		},
 		"new_type": {
-			"name": "novo_tipo",
-			"description": "Novo tipo da ReactionRole (1-6) (/reaction_roles types)"
+			"name": "new_type",
+			"description": "New type of ReactionRole (1-6) (/reaction_roles types)"
 		}
 	},
-	"UnableToUpdate": "Não foi possível editar essa ReactionRole devido a um erro interno",
+	"UnableToUpdate": "Unable to edit this ReactionRole due to an internal error",
 	"Embed": {
-		"Footer": "Reaction Roles",
-		"Description": "ReactionRole Atualizada",
+		"Footer": "ReactionRoles",
+		"Description": "ReactionRole Updated",
 		"Fields": {
-			"1": "Canal",
+			"1": "Channel",
 			"2": "Emoji",
-			"3": "Mensagem",
-			"4": "Cargo",
-			"5": "Nova opção",
+			"3": "Message",
+			"4": "Role",
+			"5": "New option",
 			"Content": {
-				"3": "[Clique aqui]({{MsgIdURL}})"
+				"3": "[Click Here]({{MsgIdURL}})"
 			}
 		}
 	}

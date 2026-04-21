@@ -1,36 +1,36 @@
 {
-	"name": "criar_tipo",
-	"description": "Cria um tipo de ticket",
+	"name": "create_type",
+	"description": "Creates a ticket type",
 	"options": {
 		"name": {
-			"name": "nome",
-			"description": "Nome do tipo de ticket"
+			"name": "name",
+			"description": "Name of the ticket type"
 		},
 		"description": {
-			"name": "descricao",
-			"description": "Descrição do tipo de ticket"
+			"name": "description",
+			"description": "Description of the ticket type"
 		},
 		"message": {
-			"name": "mensagem",
-			"description": "Mensagem que será enviada quando o ticket for aberto"
+			"name": "message",
+			"description": "Message that will be sent when the ticket is opened"
 		},
 		"emoji": {
 			"name": "emoji",
-			"description": "Emoji do tipo de ticket"
+			"description": "Emoji for the ticket type"
 		}
 	},
-	"max_types": "Você atingiu o número máximo de tipos de ticket",
-	"exists": "Já existe um tipo de ticket com esse nome",
-	"emoji_not_found": "O bot não tem acesso a esse emoji. Use um emoji deste servidor ou um emoji padrão.",
+	"max_types": "You have reached the maximum number of ticket types",
+	"exists": "A ticket type with that name already exists",
+	"emoji_not_found": "The bot does not have access to this emoji. Use an emoji from this server or a default emoji.",
 	"embed": {
-		"title": "Tipo de Ticket Criado",
-		"details": "Detalhes do tipo de ticket criado:",
+		"title": "Ticket Type Created",
+		"details": "Details of the created ticket type:",
 		"fields": {
-			"name": "Nome",
-			"description": "Descrição",
-			"message": "Mensagem",
+			"name": "Name",
+			"description": "Description",
+			"message": "Message",
 			"emoji": "Emoji"
 		},
-		"next_steps": "Você pode configurar este tipo de ticket usando o comando {{COMMAND_MENTION}} para definir um cargo de suporte, categoria, e mais."
+		"next_steps": "You can configure this ticket type using the {{COMMAND_MENTION}} command to set a support role, category, and more."
 	}
 }
