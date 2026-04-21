@@ -4,7 +4,7 @@
 	"options": {
 		"channel": {
 			"name": "canal",
-			"description": "O canal de voz para entrar"
+			"description": "O canal de voz que você quer que o bot entre"
 		}
 	}
 }

@@ -4,7 +4,7 @@
 	"options": {
 		"channel": {
 			"name": "channel",
-			"description": "Voice Channel to Join"
+			"description": "The voice channel you want the bot to join"
 		}
 	}
 }

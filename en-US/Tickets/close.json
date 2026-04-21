@@ -1,0 +1,13 @@
+{
+	"button": "Close Ticket",
+	"confirm": "Confirm",
+	"cancel": "Cancel",
+	"confirm_message": "Are you sure you want to close this ticket? The channel will be deleted.",
+	"not_ticket_channel": "This is not a ticket channel.",
+	"closing": "Closing ticket...",
+	"cancelled": "Ticket close cancelled.",
+	"embed": {
+		"title": "🔒 Ticket Closed",
+		"description": "This ticket was closed by {{USER}}. This channel will be deleted shortly."
+	}
+}

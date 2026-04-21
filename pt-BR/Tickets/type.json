@@ -1,0 +1,36 @@
+{
+	"name": "criar_tipo",
+	"description": "Cria um tipo de ticket",
+	"options": {
+		"name": {
+			"name": "nome",
+			"description": "Nome do tipo de ticket"
+		},
+		"description": {
+			"name": "descricao",
+			"description": "Descrição do tipo de ticket"
+		},
+		"message": {
+			"name": "mensagem",
+			"description": "Mensagem que será enviada quando o ticket for aberto"
+		},
+		"emoji": {
+			"name": "emoji",
+			"description": "Emoji do tipo de ticket"
+		}
+	},
+	"max_types": "Você atingiu o número máximo de tipos de ticket",
+	"exists": "Já existe um tipo de ticket com esse nome",
+	"emoji_not_found": "O bot não tem acesso a esse emoji. Use um emoji deste servidor ou um emoji padrão.",
+	"embed": {
+		"title": "Tipo de Ticket Criado",
+		"details": "Detalhes do tipo de ticket criado:",
+		"fields": {
+			"name": "Nome",
+			"description": "Descrição",
+			"message": "Mensagem",
+			"emoji": "Emoji"
+		},
+		"next_steps": "Você pode configurar este tipo de ticket usando o comando {{COMMAND_MENTION}} para definir um cargo de suporte, categoria, e mais."
+	}
+}

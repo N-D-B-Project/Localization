@@ -1,0 +1,36 @@
+{
+	"name": "create_type",
+	"description": "Creates a ticket type",
+	"options": {
+		"name": {
+			"name": "name",
+			"description": "Name of the ticket type"
+		},
+		"description": {
+			"name": "description",
+			"description": "Description of the ticket type"
+		},
+		"message": {
+			"name": "message",
+			"description": "Message that will be sent when the ticket is opened"
+		},
+		"emoji": {
+			"name": "emoji",
+			"description": "Emoji for the ticket type"
+		}
+	},
+	"max_types": "You have reached the maximum number of ticket types",
+	"exists": "A ticket type with that name already exists",
+	"emoji_not_found": "The bot does not have access to this emoji. Use an emoji from this server or a default emoji.",
+	"embed": {
+		"title": "Ticket Type Created",
+		"details": "Details of the created ticket type:",
+		"fields": {
+			"name": "Name",
+			"description": "Description",
+			"message": "Message",
+			"emoji": "Emoji"
+		},
+		"next_steps": "You can configure this ticket type using the {{COMMAND_MENTION}} command to set a support role, category, and more."
+	}
+}

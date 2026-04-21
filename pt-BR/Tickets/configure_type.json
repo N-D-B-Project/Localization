@@ -1,0 +1,44 @@
+{
+	"name": "configurar_tipo",
+	"description": "Configurar um tipo de ticket",
+	"options": {
+		"name": {
+			"name": "nome",
+			"description": "O nome do tipo de ticket para configurar"
+		},
+		"support_role": {
+			"name": "cargo_suporte",
+			"description": "O cargo que pode acessar tickets deste tipo"
+		},
+		"category": {
+			"name": "categoria",
+			"description": "A categoria onde os canais de ticket serão criados"
+		},
+		"description": {
+			"name": "descricao",
+			"description": "Nova descrição do tipo de ticket"
+		},
+		"message": {
+			"name": "mensagem",
+			"description": "Nova mensagem enviada quando um ticket é aberto"
+		},
+		"emoji": {
+			"name": "emoji",
+			"description": "Novo emoji do tipo de ticket"
+		}
+	},
+	"no_options": "Você deve fornecer pelo menos uma opção para configurar.",
+	"not_found": "Nenhum tipo de ticket encontrado com esse nome.",
+	"fields": {
+		"support_role": "Cargo de Suporte",
+		"category": "Categoria",
+		"description": "Descrição",
+		"message": "Mensagem",
+		"emoji": "Emoji"
+	},
+	"embed": {
+		"title": "Tipo de Ticket Configurado",
+		"type": "Tipo",
+		"updated": "Configurações atualizadas:"
+	}
+}

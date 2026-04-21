@@ -1,0 +1,74 @@
+{
+	"name": "painel",
+	"description": "Customizar a aparência e padrões do painel de tickets",
+	"options": {
+		"title": {
+			"name": "titulo",
+			"description": "Título customizado para o painel de tickets"
+		},
+		"description": {
+			"name": "descricao",
+			"description": "Descrição customizada para o painel de tickets"
+		},
+		"color": {
+			"name": "cor",
+			"description": "Cor hex para o embed do painel (ex: #5865F2)"
+		},
+		"thumbnail": {
+			"name": "miniatura",
+			"description": "URL da imagem miniatura para o embed do painel"
+		},
+		"image": {
+			"name": "imagem",
+			"description": "URL da imagem grande para o embed do painel"
+		},
+		"footer": {
+			"name": "rodape",
+			"description": "Texto de rodapé para o embed do painel"
+		},
+		"button_label": {
+			"name": "texto_botao",
+			"description": "Texto customizado para o botão de abrir ticket"
+		},
+		"button_emoji": {
+			"name": "emoji_botao",
+			"description": "Emoji customizado para o botão de abrir ticket"
+		},
+		"default_role": {
+			"name": "cargo_padrao",
+			"description": "Cargo de suporte padrão para todos os tipos de ticket"
+		},
+		"default_category": {
+			"name": "categoria_padrao",
+			"description": "Categoria padrão para todos os canais de ticket"
+		},
+		"default_message": {
+			"name": "mensagem_padrao",
+			"description": "Mensagem padrão exibida ao abrir um ticket"
+		}
+	},
+	"none": "Nenhum",
+	"invalid_color": "Formato de cor inválido. Use formato hex como `#5865F2`.",
+	"invalid_url": "URL inválida para **{{FIELD}}**. Use uma URL válida com `https://`.",
+	"fields": {
+		"title": "Título",
+		"description": "Descrição",
+		"color": "Cor",
+		"thumbnail": "Miniatura",
+		"image": "Imagem",
+		"footer": "Rodapé",
+		"button_label": "Texto do Botão",
+		"button_emoji": "Emoji do Botão",
+		"default_role": "Cargo Padrão",
+		"default_category": "Categoria Padrão",
+		"default_message": "Mensagem Padrão"
+	},
+	"sections": {
+		"appearance": "Aparência",
+		"defaults": "Padrões Globais"
+	},
+	"embed": {
+		"current_title": "Configurações Atuais do Painel",
+		"updated_title": "Configurações do Painel Atualizadas"
+	}
+}

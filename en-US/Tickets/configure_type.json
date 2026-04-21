@@ -1,0 +1,44 @@
+{
+	"name": "configure_type",
+	"description": "Configure a ticket type",
+	"options": {
+		"name": {
+			"name": "name",
+			"description": "The name of the ticket type to configure"
+		},
+		"support_role": {
+			"name": "support_role",
+			"description": "The role that can access tickets of this type"
+		},
+		"category": {
+			"name": "category",
+			"description": "The category where ticket channels will be created"
+		},
+		"description": {
+			"name": "description",
+			"description": "New description for the ticket type"
+		},
+		"message": {
+			"name": "message",
+			"description": "New message sent when a ticket is opened"
+		},
+		"emoji": {
+			"name": "emoji",
+			"description": "New emoji for the ticket type"
+		}
+	},
+	"no_options": "You must provide at least one option to configure.",
+	"not_found": "No ticket type found with that name.",
+	"fields": {
+		"support_role": "Support Role",
+		"category": "Category",
+		"description": "Description",
+		"message": "Message",
+		"emoji": "Emoji"
+	},
+	"embed": {
+		"title": "Ticket Type Configured",
+		"type": "Type",
+		"updated": "Updated settings:"
+	}
+}
