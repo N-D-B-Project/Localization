@@ -24,7 +24,7 @@
 		}
 	},
 	"ID": {
-		"NotFound": "{{fail}} Mensagem não encontrada verifique se o ID é valido"
+		"NotFound": "{{fail}} Message not found, check if the ID is valid"
 	},
 	"UnableToCreate": "{{fail}} Não foi possível criar essa ReactionRole pois ela já existe ou ocorreu um erro interno",
 	"Embed": {

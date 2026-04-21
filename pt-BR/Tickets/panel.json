@@ -1,74 +1,74 @@
 {
-	"name": "painel",
-	"description": "Customizar a aparência e padrões do painel de tickets",
+	"name": "panel",
+	"description": "Customize the ticket panel appearance and defaults",
 	"options": {
 		"title": {
-			"name": "titulo",
-			"description": "Título customizado para o painel de tickets"
+			"name": "title",
+			"description": "Custom title for the ticket panel"
 		},
 		"description": {
-			"name": "descricao",
-			"description": "Descrição customizada para o painel de tickets"
+			"name": "description",
+			"description": "Custom description for the ticket panel"
 		},
 		"color": {
-			"name": "cor",
-			"description": "Cor hex para o embed do painel (ex: #5865F2)"
+			"name": "color",
+			"description": "Hex color for the panel embed (e.g. #5865F2)"
 		},
 		"thumbnail": {
-			"name": "miniatura",
-			"description": "URL da imagem miniatura para o embed do painel"
+			"name": "thumbnail",
+			"description": "Thumbnail image URL for the panel embed"
 		},
 		"image": {
-			"name": "imagem",
-			"description": "URL da imagem grande para o embed do painel"
+			"name": "image",
+			"description": "Large image URL for the panel embed"
 		},
 		"footer": {
-			"name": "rodape",
-			"description": "Texto de rodapé para o embed do painel"
+			"name": "footer",
+			"description": "Footer text for the panel embed"
 		},
 		"button_label": {
-			"name": "texto_botao",
-			"description": "Texto customizado para o botão de abrir ticket"
+			"name": "button_label",
+			"description": "Custom label for the open ticket button"
 		},
 		"button_emoji": {
-			"name": "emoji_botao",
-			"description": "Emoji customizado para o botão de abrir ticket"
+			"name": "button_emoji",
+			"description": "Custom emoji for the open ticket button"
 		},
 		"default_role": {
-			"name": "cargo_padrao",
-			"description": "Cargo de suporte padrão para todos os tipos de ticket"
+			"name": "default_role",
+			"description": "Default support role for all ticket types"
 		},
 		"default_category": {
-			"name": "categoria_padrao",
-			"description": "Categoria padrão para todos os canais de ticket"
+			"name": "default_category",
+			"description": "Default category for all ticket channels"
 		},
 		"default_message": {
-			"name": "mensagem_padrao",
-			"description": "Mensagem padrão exibida ao abrir um ticket"
+			"name": "default_message",
+			"description": "Default message shown when a ticket is opened"
 		}
 	},
-	"none": "Nenhum",
-	"invalid_color": "Formato de cor inválido. Use formato hex como `#5865F2`.",
-	"invalid_url": "URL inválida para **{{FIELD}}**. Use uma URL válida com `https://`.",
+	"none": "None",
+	"invalid_color": "Invalid color format. Use hex format like `#5865F2`.",
+	"invalid_url": "Invalid URL for **{{FIELD}}**. Use a valid `https://` URL.",
 	"fields": {
-		"title": "Título",
-		"description": "Descrição",
-		"color": "Cor",
-		"thumbnail": "Miniatura",
-		"image": "Imagem",
-		"footer": "Rodapé",
-		"button_label": "Texto do Botão",
-		"button_emoji": "Emoji do Botão",
-		"default_role": "Cargo Padrão",
-		"default_category": "Categoria Padrão",
-		"default_message": "Mensagem Padrão"
+		"title": "Title",
+		"description": "Description",
+		"color": "Color",
+		"thumbnail": "Thumbnail",
+		"image": "Image",
+		"footer": "Footer",
+		"button_label": "Button Label",
+		"button_emoji": "Button Emoji",
+		"default_role": "Default Role",
+		"default_category": "Default Category",
+		"default_message": "Default Message"
 	},
 	"sections": {
-		"appearance": "Aparência",
-		"defaults": "Padrões Globais"
+		"appearance": "Appearance",
+		"defaults": "Global Defaults"
 	},
 	"embed": {
-		"current_title": "Configurações Atuais do Painel",
-		"updated_title": "Configurações do Painel Atualizadas"
+		"current_title": "Current Panel Settings",
+		"updated_title": "Panel Settings Updated"
 	}
 }

@@ -1,44 +1,44 @@
 {
-	"name": "configurar_tipo",
-	"description": "Configurar um tipo de ticket",
+	"name": "configure_type",
+	"description": "Configure a ticket type",
 	"options": {
 		"name": {
-			"name": "nome",
-			"description": "O nome do tipo de ticket para configurar"
+			"name": "name",
+			"description": "The name of the ticket type to configure"
 		},
 		"support_role": {
-			"name": "cargo_suporte",
-			"description": "O cargo que pode acessar tickets deste tipo"
+			"name": "support_role",
+			"description": "The role that can access tickets of this type"
 		},
 		"category": {
-			"name": "categoria",
-			"description": "A categoria onde os canais de ticket serão criados"
+			"name": "category",
+			"description": "The category where ticket channels will be created"
 		},
 		"description": {
-			"name": "descricao",
-			"description": "Nova descrição do tipo de ticket"
+			"name": "description",
+			"description": "New description for the ticket type"
 		},
 		"message": {
-			"name": "mensagem",
-			"description": "Nova mensagem enviada quando um ticket é aberto"
+			"name": "message",
+			"description": "New message sent when a ticket is opened"
 		},
 		"emoji": {
 			"name": "emoji",
-			"description": "Novo emoji do tipo de ticket"
+			"description": "New emoji for the ticket type"
 		}
 	},
-	"no_options": "Você deve fornecer pelo menos uma opção para configurar.",
-	"not_found": "Nenhum tipo de ticket encontrado com esse nome.",
+	"no_options": "You must provide at least one option to configure.",
+	"not_found": "No ticket type found with that name.",
 	"fields": {
-		"support_role": "Cargo de Suporte",
-		"category": "Categoria",
-		"description": "Descrição",
-		"message": "Mensagem",
+		"support_role": "Support Role",
+		"category": "Category",
+		"description": "Description",
+		"message": "Message",
 		"emoji": "Emoji"
 	},
 	"embed": {
-		"title": "Tipo de Ticket Configurado",
-		"type": "Tipo",
-		"updated": "Configurações atualizadas:"
+		"title": "Ticket Type Configured",
+		"type": "Type",
+		"updated": "Updated settings:"
 	}
 }

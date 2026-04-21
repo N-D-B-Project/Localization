@@ -1,13 +1,13 @@
 {
-	"button": "Fechar Ticket",
-	"confirm": "Confirmar",
-	"cancel": "Cancelar",
-	"confirm_message": "Tem certeza que deseja fechar este ticket? O canal será deletado.",
-	"not_ticket_channel": "Este não é um canal de ticket.",
-	"closing": "Fechando ticket...",
-	"cancelled": "Fechamento de ticket cancelado.",
+	"button": "Close Ticket",
+	"confirm": "Confirm",
+	"cancel": "Cancel",
+	"confirm_message": "Are you sure you want to close this ticket? The channel will be deleted.",
+	"not_ticket_channel": "This is not a ticket channel.",
+	"closing": "Closing ticket...",
+	"cancelled": "Ticket close cancelled.",
 	"embed": {
-		"title": "🔒 Ticket Fechado",
-		"description": "Este ticket foi fechado por {{USER}}. Este canal será deletado em breve."
+		"title": "🔒 Ticket Closed",
+		"description": "This ticket was closed by {{USER}}. This channel will be deleted shortly."
 	}
 }

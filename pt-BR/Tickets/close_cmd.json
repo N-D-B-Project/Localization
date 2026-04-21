@@ -1,4 +1,4 @@
 {
-	"name": "fechar",
-	"description": "Fechar o ticket atual"
+	"name": "close",
+	"description": "Close the current ticket"
 }

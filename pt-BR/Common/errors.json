@@ -1,4 +1,4 @@
 {
-	"emoji": "O emoji fornecido é inválido.",
-	"command_not_available": "__O comando especificado não foi encontrado ou não esta disponivel__"
+	"emoji": "The provided emoji is invalid.",
+	"command_not_available": "__The specified command was not found or is not available.__"
 }
