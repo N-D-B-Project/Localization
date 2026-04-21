@@ -1,5 +1,5 @@
 {
-    "name": "test",
-    "description": "Command for Testing things",
-    "message": "Tested!"
+	"name": "test",
+	"description": "Command for Testing things",
+	"message": "Tested!"
 }

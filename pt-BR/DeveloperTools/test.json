@@ -1,5 +1,5 @@
 {
-    "name": "teste",
-    "description": "Comando para testar coisas",
-    "message": "Testado!"
+	"name": "teste",
+	"description": "Comando para testar coisas",
+	"message": "Testado!"
 }
