@@ -1,0 +1,24 @@
+{
+	"name": "ver_tipo",
+	"description": "Ver detalhes de um tipo de ticket",
+	"options": {
+		"name": {
+			"name": "nome",
+			"description": "O nome do tipo de ticket para ver"
+		}
+	},
+	"not_found": "Nenhum tipo de ticket encontrado com esse nome.",
+	"not_set": "Não definido",
+	"fields": {
+		"name": "Nome",
+		"emoji": "Emoji",
+		"description": "Descrição",
+		"message": "Mensagem",
+		"support_role": "Cargo de Suporte",
+		"category": "Categoria"
+	},
+	"section": {
+		"details": "Detalhes",
+		"config": "Configuração"
+	}
+}

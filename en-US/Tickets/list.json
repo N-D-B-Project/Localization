@@ -1,0 +1,9 @@
+{
+	"name": "list",
+	"description": "List all ticket types configured in this server",
+	"empty": "No ticket types configured in this server.",
+	"embed": {
+		"title": "🎫 Ticket Types",
+		"footer": "Total: {{COUNT}} type(s)"
+	}
+}

@@ -1,0 +1,12 @@
+{
+	"name": "deletar_tipo",
+	"description": "Deletar um tipo de ticket",
+	"options": {
+		"name": {
+			"name": "nome",
+			"description": "O nome do tipo de ticket para deletar"
+		}
+	},
+	"not_found": "Nenhum tipo de ticket encontrado com esse nome.",
+	"success": "Tipo de ticket **{{NAME}}** foi deletado."
+}

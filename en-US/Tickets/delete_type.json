@@ -1,0 +1,12 @@
+{
+	"name": "delete_type",
+	"description": "Delete a ticket type",
+	"options": {
+		"name": {
+			"name": "name",
+			"description": "The name of the ticket type to delete"
+		}
+	},
+	"not_found": "No ticket type found with that name.",
+	"success": "Ticket type **{{NAME}}** has been deleted."
+}

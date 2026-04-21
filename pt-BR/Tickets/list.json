@@ -1,0 +1,9 @@
+{
+	"name": "listar_tipos",
+	"description": "Listar todos os tipos de ticket configurados neste servidor",
+	"empty": "Nenhum tipo de ticket configurado neste servidor.",
+	"embed": {
+		"title": "🎫 Tipos de Ticket",
+		"footer": "Total: {{COUNT}} tipo(s)"
+	}
+}

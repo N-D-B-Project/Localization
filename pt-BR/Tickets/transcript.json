@@ -1,0 +1,8 @@
+{
+	"button": "Transcrição",
+	"empty": "Nenhuma mensagem encontrada neste canal.",
+	"sent": "Transcrição enviada para suas DMs!",
+	"error": "Falha ao gerar transcrição. Tente novamente.",
+	"dm_message": "📋 Aqui está a transcrição de **#{{CHANNEL}}**:",
+	"close_dm": "📋 Seu ticket **#{{CHANNEL}}** em **{{GUILD}}** foi fechado. Aqui está a transcrição:"
+}

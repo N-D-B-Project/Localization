@@ -1,0 +1,8 @@
+{
+	"button": "Transcript",
+	"empty": "No messages found in this channel.",
+	"sent": "Transcript sent to your DMs!",
+	"error": "Failed to generate transcript. Please try again.",
+	"dm_message": "📋 Here is the transcript for **#{{CHANNEL}}**:",
+	"close_dm": "📋 Your ticket **#{{CHANNEL}}** in **{{GUILD}}** was closed. Here is the transcript:"
+}

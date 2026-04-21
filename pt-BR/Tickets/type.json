@@ -21,6 +21,7 @@
 	},
 	"max_types": "Você atingiu o número máximo de tipos de ticket",
 	"exists": "Já existe um tipo de ticket com esse nome",
+	"emoji_not_found": "O bot não tem acesso a esse emoji. Use um emoji deste servidor ou um emoji padrão.",
 	"embed": {
 		"title": "Tipo de Ticket Criado",
 		"details": "Detalhes do tipo de ticket criado:",
@@ -30,8 +31,6 @@
 			"message": "Mensagem",
 			"emoji": "Emoji"
 		},
-		"next_steps": "Você pode adicionar configurações adicionais ao tipo de ticket usando o comando {{COMMAND_MENTION}}, como definir permissões, editar o tipo, etc...",
-		"configure": "Ou você pode configurar clicando no botão.",
-		"start_configure": "Começar a configurar"
+		"next_steps": "Você pode configurar este tipo de ticket usando o comando {{COMMAND_MENTION}} para definir um cargo de suporte, categoria, e mais."
 	}
 }

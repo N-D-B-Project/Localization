@@ -1,0 +1,74 @@
+{
+	"name": "panel",
+	"description": "Customize the ticket panel appearance and defaults",
+	"options": {
+		"title": {
+			"name": "title",
+			"description": "Custom title for the ticket panel"
+		},
+		"description": {
+			"name": "description",
+			"description": "Custom description for the ticket panel"
+		},
+		"color": {
+			"name": "color",
+			"description": "Hex color for the panel embed (e.g. #5865F2)"
+		},
+		"thumbnail": {
+			"name": "thumbnail",
+			"description": "Thumbnail image URL for the panel embed"
+		},
+		"image": {
+			"name": "image",
+			"description": "Large image URL for the panel embed"
+		},
+		"footer": {
+			"name": "footer",
+			"description": "Footer text for the panel embed"
+		},
+		"button_label": {
+			"name": "button_label",
+			"description": "Custom label for the open ticket button"
+		},
+		"button_emoji": {
+			"name": "button_emoji",
+			"description": "Custom emoji for the open ticket button"
+		},
+		"default_role": {
+			"name": "default_role",
+			"description": "Default support role for all ticket types"
+		},
+		"default_category": {
+			"name": "default_category",
+			"description": "Default category for all ticket channels"
+		},
+		"default_message": {
+			"name": "default_message",
+			"description": "Default message shown when a ticket is opened"
+		}
+	},
+	"none": "None",
+	"invalid_color": "Invalid color format. Use hex format like `#5865F2`.",
+	"invalid_url": "Invalid URL for **{{FIELD}}**. Use a valid `https://` URL.",
+	"fields": {
+		"title": "Title",
+		"description": "Description",
+		"color": "Color",
+		"thumbnail": "Thumbnail",
+		"image": "Image",
+		"footer": "Footer",
+		"button_label": "Button Label",
+		"button_emoji": "Button Emoji",
+		"default_role": "Default Role",
+		"default_category": "Default Category",
+		"default_message": "Default Message"
+	},
+	"sections": {
+		"appearance": "Appearance",
+		"defaults": "Global Defaults"
+	},
+	"embed": {
+		"current_title": "Current Panel Settings",
+		"updated_title": "Panel Settings Updated"
+	}
+}
